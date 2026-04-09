@@ -6,16 +6,16 @@
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--color-silver-20: #DDEAEB;
+	--color-cream-50: #E9EBDD;
+	--color-cream-90: #F2EED7;
 
-	--background-color: #fff;
+	--background-color: #27313C;
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color: var(--color-cream-90);
+	--text-color-link: #9ed3fb;
+	--text-color-link-active: #6d74f7;
+	--text-color-link-visited: #e4c984;
 
 	--syntax-tab-size: 2;
 }
@@ -123,7 +123,7 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	border-bottom: 1px dashed var(--color-cream-20);
 }
 
 #skip-link {
@@ -131,7 +131,7 @@ header {
 	background: var(--background-color);
 	color: var(--text-color);
 	padding: 0.5rem 1rem;
-	border: 1px solid var(--color-gray-90);
+	border: 1px solid var(--color-cream-90);
 	border-radius: 2px;
 }
 
@@ -149,7 +149,7 @@ header {
 	justify-content: space-between;
 	gap: .5em 1em;
 	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
+	border-top: 1px dashed var(--color-cream-20);
 	padding: 1em 0;
 }
 .links-nextprev > * {
@@ -252,7 +252,7 @@ header {
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	color: var(--color-cream-90);
 }
 .postlist-date {
 	word-spacing: -0.5px;
